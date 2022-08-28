@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">NorwAir</string>
+    <string name="search_hint">Search County</string>
+    <string name="empty">Ingen kommuner satt\n som favoritt</string>
+    <string name="CO2">Karbondioksid (CO2)</string>
+    <string name="NO">Nitrogenmonoksid (NO)</string>
+    <string name="NO2">Nitrogendioksid (NO2)</string>
+    <string name="NOx">Nitrogenmono- og -dioksid (NOx)</string>
+    <string name="O3">Ozon (O3)</string>
+    <string name="PM">Svevestøv</string>
+    <string name="SO2">Svoveldioksid (SO2)</string>
+    <string name="CO2desc">Karbondioksid (CO2) dannes ved avbrenning av olje og naturgass hovedsakelig. Måles i mikrogram per kubikkmeter.</string>
+    <string name="NOdesc">Nitrogenmonoksid (NO) er en ikke-brennbar gass som oppstår i forbrenningsmotorer og ved sigarettrøyking. Måles i mikrogram per kubikkmeter.</string>
+    <string name="NO2desc">Nitrogendioksid (NO2) er en gass, hovedsakelig funnet i eksos, fra dieselkjøretøy. Måles i mikrogram per kubikkmeter.</string>
+    <string name="NOxdesc">NOx er en fellesbetegnelse for nitrogenoksider, og er reaktive gasser dannet ved forbrenning. Måles i mikrogram per kubikkmeter.</string>
+    <string name="O3desc">Ozon (O3), bakkenær ozon. Hovedskilde er langtransportert forurensning fra kontinentet. Måles i mikrogram per kubikkmeter.</string>
+    <string name="PMdesc">Partikler delt etter størrelse. Tallet etter PM står for maks størrelse i mikrometer (µm). PM10 er altså partikler mindre enn 10µm. Oppstår ved slitasje på piggdekk, samt fyring av blandt annet ved. Måles i mikrogram per kubikkmeter.</string>
+    <string name="SO2desc">Svoveldioksid (SO2) oppstår ved forbrenning av svovelholdige fossile brennstoff som kull og tungolje. Måles i mikrogram per kubikkmeter.</string>
+    <string name="FAQ"><u>Frequently Asked Questions</u></string>
+    <string name="q1String">Hvorfor finner jeg ikke info om kommunen min?</string>
+    <string name="a1String">Dataen vi benytter oss av er hentet fra NILU. For øyeblikket er ikke alle kommuner inkludert i NILU sitt API, og derfor vil ikke data fra din kommune vises. NILU leverer data i sanntid, så det kan også hende at det ikke finnes data fra din kommune for øyeblikket.</string>
+    <string name="q2String">Hva avgjør farenivået i kommuneoversikten?</string>
+    <string name="a2String">Kommunene sin farge i kommuneoversikten baserer seg kun på de siste PM10 målingene i kommunen.</string>
+    <string name="q3String">Hva bestemmer de forskjellige farenivåene?</string>
+    <string name="a3String">Farenivåene samt målingene er begge hentet fra NILU sitt API, hvor målingene er gjort ved gram per kubikkmeter.</string>
+    <string name="q4String">Hvem er sårbare grupper?</string>
+    <string name="a4String">Ifølge FHI er de mest utsatte ved dårlig luftkvalitet den delen av befolkningen med astma og andre lungesykdommer, hjerte- og karsykdommer og diabetes, gravide, eldre og barn</string>
+    <string name="q5String">Hvordan kan jeg beskytte meg mot dårlig luftkvalitet?</string>
+    <string name="a5String">Det rådes å unngå tungt trafikkerte veier, begrense opphold ute på de verste dagene, bruk av annsiktsmaske og hvis nød ha et luftfilter i hjemmet. Bruk av kuldemaske anbefales også ved kalde dager.</string>
+</resources>

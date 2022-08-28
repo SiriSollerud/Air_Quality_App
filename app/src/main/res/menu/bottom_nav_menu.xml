@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_search_icon"
+        android:title="SØK"/>
+    <item
+        android:id="@+id/navigation_fav"
+        android:icon="@drawable/ic_fav_icon"
+        android:title="FAVORITTER"/>
+    <item
+        android:id="@+id/navigation_info"
+        android:icon="@drawable/ic_info_icon"
+        android:title="INFO"/>
+</menu>

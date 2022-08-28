@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="4dp"
+    android:layout_margin="10dp"
+    tools:context=".KommuneAdapter"
+    app:cardBackgroundColor="#DFFFFFFF"
+    android:clickable="true"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="139dp">
+
+        <TextView
+            android:id="@+id/kommune_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAllCaps="true"
+            android:background="#ffff8800"
+            android:fontFamily="@font/oxygen"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/AQI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AQI"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_alignTop="@+id/kommune_name"
+            android:textStyle="bold"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="95dp"/>
+
+        <TextView
+            android:id="@+id/AQIValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/AQI"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/oxygen"
+            android:text="8"
+            android:textAlignment="center"
+            android:textSize="64sp" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignTop="@+id/kommune_name"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/statusValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/oxygen"
+            android:gravity="center"
+            android:text="statusValue"
+            android:layout_alignTop="@+id/status"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/weather"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text=""
+            android:textSize="12sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_alignTop="@+id/kommune_name"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:id="@+id/weatherValue"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/oxygen"
+            android:text="weatherValue"
+            android:textAlignment="center"
+            android:layout_alignTop="@+id/weather"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/favorittBoks"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignTop="@id/kommune_name"
+            android:layout_alignParentEnd="true"
+            android:button="@null"
+            android:drawablePadding="20dp"
+            android:background="@drawable/selector_favoritt_item" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
